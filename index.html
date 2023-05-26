@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Samadhan 1.0</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+    <!-- <canvas id=c></canvas> -->
+</head>
+
+<body>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js">
+        React.useEffect(() => {
+            const script = document.createElement('script');
+            script.src = 'https://apply.devfolio.co/v2/sdk.js';
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+            return () => {
+                document.body.removeChild(script);
+            }
+        }, []);
+    </script>
+    <!-- <script src="/script.js"></script> -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-1 sticky-top pe-5">
+        <a class="navbar-brand align-items-start ps-5" href="#">
+            <img src="/logo-removebg-preview.png" alt=" " class="rounded logo_img" />
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item hero-button">
+                    <a class="nav-link " href="#about">ABOUT </a>
+                </li>
+                <li class="nav-item hero-button">
+                    <a class="nav-link " href="#schedule">SCHEDULE</a>
+                </li>
+                <li class="nav-item hero-button">
+                    <a class="nav-link " href="#sponsors">SPONSORS</a>
+                </li>
+                <li class="nav-item hero-button">
+                    <a class="nav-link " href="#themes">THEMES</a>
+                </li>
+                <li class="nav-item hero-button">
+                    <a class="nav-link " href="#faq">FAQs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/REGISTRATION START FROM.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/REGISTRATION START FROM.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="/REGISTRATION START FROM.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container modal-fullscreen">
+        <div class="row">
+            <div class="col samadhan">
+                <img src="/Screenshot_2023-05-20_105231-removebg-preview.png" class="rounded mx-auto d-block " alt="...">
+                <div class="presents h5 text-center ">
+                    Presents
+                </div>
+                <div class="text-resize1 samathan-title text-center">
+                    SAMADHAN
+                </div>
+                <div class="presents text-center">
+                    LEARN. TECH. HACK. WIN
+                </div>
+                <div class="apply-button text-center presents h5 p-3" data-hackathon-slug="samadhanaump" data-button-theme="light"> Apply With Devfolio</div>
+            </div>
+            <div class="col about p-0">
+                <div class=" text-start">
+                    <div class="about1 h2"> What is SAMADHAN?
+                    </div>
+                    <div class="info "><b>Objective:</b> The objective of this nationwide hackathon is to gather the young and innovative minds to establish a community where students from all over the country come up with smart solutions,mostly related to digitalization,
+                        and help to improve the functioning of of society as a whole. There are several administrative apps as well as industrial and social innovations that help to improve the quality of life of the people. <br><b>Problem statement: </b>Open
+                        for all real-world problems that can be solved using Artificial Intelligence, Blockchain/Web3, Cyber Security, and Open Innovation.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="Themes container modal-fullscreen" id="themes">
+        <figure class="text-center ">
+            <div class="sponsors-title">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-sm-12 h1">
+                            DOMAINS
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <div class="themes-div ">
+            <div class="container text-center ">
+                <div class="row ">
+                    <div class="col p-4 ">
+                        <img src="/aiml-removebg-preview (1).png " alt=" " class="rounded shadow p-3 mb-5 border border-secondary" width="250px ">
+                        <p class="h3 caption ">AI/ML</p>
+                    </div>
+
+                    <div class="col p-4 ">
+                        <img src="/ar-vr-removebg-preview-removebg-preview (1).png " alt=" " class="rounded shadow p-3 mb-5 border border-secondary" width="250px ">
+                        <p class="h3 caption ">AR/VR</p>
+                    </div>
+                    <div class="col p-4 ">
+                        <img src="/cybersecurity-removebg-preview (1).png " alt=" " class=" rounded shadow p-3 mb-5 border border-secondary" width="250px ">
+                        <p class="h3 caption ">CYBER SECURITY</p>
+                    </div>
+                </div>
+                <div class="container text-center ">
+                    <div class="row ">
+                        <div class="col p-4 ">
+                            <img src="/web3-removebg-preview (1).png " alt=" " class="rounded shadow  p-3 mb-5 border border-secondary" width="250px ">
+                            <p class="h3 caption ">BLOCKCHAIN/WEB3</p>
+                        </div>
+                        <div class="col p-4 ">
+                            <img src="/9165451 (1).png " alt=" " class="rounded shadow  p-3 mb-5 border border-secondary" width="250px ">
+                            <p class="h3 caption ">OPEN INNOVATION</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="timeline-section align-content-center justify-content-center modal-fullscreen" id="schedule">
+        <figure class="text-center ">
+            <div class="sponsors-title">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-sm-12 h1">
+                            TIMELINE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <div class="timeline">
+            <div class="timeline-container left-container">
+                <img src="/devfolio.png" alt="DEVFOLIO LOGO">
+                <div class="text-box">
+                    <h2>1</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo!</p>
+                    <span class="left-container-arraw"></span>
+                </div>
+            </div>
+            <div class="timeline-container right-container">
+                <img src="/devfolio.png" alt="">
+                <div class="text-box">
+                    <h2>2</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo!</p>
+                    <span class="right-container-arraw"></span>
+
+                </div>
+            </div>
+            <div class="timeline-container left-container">
+                <img src="/devfolio.png" alt="">
+                <div class="text-box">
+                    <h2>3</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo!</p>
+                    <span class="left-container-arraw"></span>
+
+                </div>
+            </div>
+            <div class="timeline-container right-container">
+                <img src="/devfolio.png" alt="">
+                <div class="text-box">
+                    <h2>4</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo!</p>
+                    <span class="right-container-arraw"></span>
+
+                </div>
+            </div>
+            <div class="timeline-container left-container">
+                <img src="/devfolio.png" alt="">
+                <div class="text-box">
+                    <h2>5</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo!</p>
+                    <span class="left-container-arraw"></span>
+
+                </div>
+            </div>
+
+            <div class="timeline-container right-container">
+                <img src="/devfolio.png" alt="">
+                <div class="text-box">
+                    <h2>6</h2>
+                    <small>2018-2019</small>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nemo!</p>
+                    <span class="right-container-arraw"></span>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="sponsors-top">
+            <div class="sponsors" id="sponsors">
+                <div class="sponsors-div ">
+                    <div class="row ">
+                        <div class="col-sm-12 sponsors-title text-center h1 ">
+                            SPONSORS
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="Themes modal-fullscreen p-0 m-0" id="themes">
+                <figure class="text-center p-0 m-0">
+                    <div class="aboutus-div p-0 m-0">
+                        <div class="row p-0 m-0">
+                            <div class="col-sm-12 p-0 m-0">
+                                <p class="text-center sponsors-title h3 p-0 m-0">
+                                    UNIVERSAL SPONSORS
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+                <div class="themes-div ">
+                    <div class="container text-center ">
+                        <div class="row ">
+                            <div class="col p-4 ">
+                                <img src="/devfolio.png" alt="DEVFOLIO LOGO" class="rounded " width="200px ">
+                            </div>
+                            <div class="col p-4 ">
+                                <img src="/logotype-PhotoRoom.png-PhotoRoom.png" alt="REPLIT LOGO" class="rounded " width="200px ">
+                            </div>
+                            <div class="col p-4 ">
+                                <img src="/filecoin.png " alt="FILECOIN LOGO" class="rounded " width="200px ">
+                            </div>
+                        </div>
+                        <div class="container text-center ">
+                            <div class="row ">
+                                <div class="col p-4 ">
+                                    <img src="/polygon.png" alt="POLYGON LOGO" class="rounded " width="200px ">
+                                </div>
+                                <div class="col p-4 ">
+                                    <img src="/solana.png" alt="SOLANA LOGO" class="rounded " width="200px ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+        <section class="FAQ">
+            <div class=""></div>
+        </section>
+        <footer>
+            <div class="container modal-fullscreen">
+                <div class="row ">
+                    <p class="text-center h3 p-3 " style="color: #fdce03;">Connect With Us</p>
+                    <div class="col ">
+                        <div class="social-media ">
+                            <a href="https://discord.gg/5WXStJbsGF " target="_main"><img src="/discord.png " alt=" " class="rounded " width="40px "></a>
+                            <a href="https://www.instagram.com/samadhan_1.0/ " target="_main"><img src="/instagram-removebg-preview.png " alt=" " class="rounded " width="40px "></a>
+                            <a href="https://www.linkedin.com/in/samadhan-1-6627b8277/ " target="_main"><img src="/linkedin-removebg-preview.png " alt=" " class="rounded " width="40px "></a>
+                            <a href="https://twitter.com/samadhan_1_0 " target="_main"><img src="/twitter-removebg-preview.png " alt=" " class="rounded " width="40px "></a>
+                            <a href="https://goo.gl/maps/3ZuZgsSUYCu4MJzf7" target="_main"><img src="/My project.png" alt=" " class="rounded " width="40px "></a>
+                        </div>
+                    </div>
+
+                    <div class="col ">
+                        <div class="text-center ">
+                            <p class="text-start h6 ">Student Coordinator</p>
+                            <p class="text-start h6">Shashank Dixit:+91 80775 79947 </p>
+                            <p class="text-start h6">Priyal Gupta:+91 79747 22050 </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <p class="text-start h6 ">Faculty Coordinator</p>
+                        <p class="text-start h6">Dr. Amit Mishra:+91 92000 44044 </p>
+                        <p class="text-start h6">Dr. Daniel A:+91 97868 43789 </p>
+                    </div>
+                    <figure class="text-center pt-5">
+                        <blockquote class="blockquote">
+                            <small class="text-muted ">Copyrights © 2023 all rights reserved by Samadhan/AUMP. </small>
+                        </blockquote>
+                    </figure>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
